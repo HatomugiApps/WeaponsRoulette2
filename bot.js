@@ -1,8 +1,3 @@
-/*
-https://abal.moe/Eris/docs/Client
-https://discordapp.com/developers/applications/me/423721660659793920?success=created
-*/
-
 const Eris = require('eris');
 const Https = require('https');
 const URL = 'https://mntone.github.io/splatoon2-data/main.json'; // ブキの情報json

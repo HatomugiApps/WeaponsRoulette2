@@ -1,7 +1,7 @@
 const Eris = require('eris');
 const Https = require('https');
 const URL = 'https://mntone.github.io/splatoon2-data/main.json'; // ブキの情報json
-let bot = new Eris("NDIzNzIxNjYwNjU5NzkzOTIw.DYuhUQ.EFuzsjNAZlxvEB78h30KSUGJkdA");
+let bot = new Eris(process.env.BOT_TOKEN);
 let currntRoomId = ""; // ブキルーレットを行う部屋
 let channels = {}; // チャンネル、チャンネル内メンバーが入るオブジェクト
 let weapons = []; // ブキ一覧配列
